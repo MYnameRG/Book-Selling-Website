@@ -1,0 +1,300 @@
+body{
+background-image:url("/home/rg/Music/Book Selling Website/photo.jpeg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+position:relative;
+margin:0px;
+overflow-x:hidden;
+}
+
+header {
+position:absolute;
+top:0px;
+text-align:center;
+color:white;
+background-color:rgba(255,255,0,0.2);
+font-family:Monospace;
+padding:10px;
+font-style:oblique;
+font-size:40px;
+width:100%;
+text-shadow:2px 2px red;
+color:purple;
+}
+
+ruby::before{
+content: url("/home/rg/Music/Book Selling Website/book.png");
+}
+
+nav{
+background-color:rgba(255,255,0,0.5);
+}
+
+ul{
+position:absolute;
+top:90px;
+left:3px;
+list-style-type:none;
+padding:0;
+margin:0;
+}
+
+nav li{
+float:left;
+}
+
+nav li button{
+text-decoration:none;
+background-color:#c19a6b;
+text-align:center;
+padding:29px;
+color:white;
+font-family:Serif;
+font-style:italic;
+font-variant:small-caps;
+font-weight:12px;
+width:100%;
+border:none;
+}
+
+nav li button:hover{
+background-color:rgba(255,255,255,0.5);
+color:purple;
+text-shadow:1px 1px purple;
+font-variant:3px;
+transition:0.4s;
+}
+
+nav ul li:hover button{
+background-color:rgba(255,255,255,0.8);
+color:purple;
+text-shadow:1px 1px purple;
+font-variant:3px;
+}
+
+nav ul li{
+display:inline-block;
+}
+
+.dropdown-content{
+display:none;
+position:absolute;
+width:15%;
+background-color:rgba(255,255,255,0.9);
+box-shadow:2px 2px 2px 2px grey;
+z-index:1;
+}
+
+.dropdown-content a{
+display:block;
+text-decoration:none;
+text-align:left;
+color:black;
+padding:12px 16px;
+font-style:oblique;
+}
+
+nav ul li:hover .dropdown-content{
+display:block;
+}
+
+.dropdown-content a:hover{
+background-color:grey;
+color:white;
+font-style:oblique;
+transition:0.4s;
+}
+
+article{
+position:absolute;
+top:180px;
+left:15px;
+background-color:rgba(255,255,255,0.9);
+height:300px;
+width:920px;
+border-radius:10px;
+}
+
+article marquee{
+border-radius:10px;
+border:1px groove grey;
+}
+
+.mySlides{
+display:block;
+position:absolute;
+float:top;
+padding-top:50px;
+padding-bottom:40px;
+padding-left:120px;
+padding-right:500px;
+}
+
+section .introduction{
+position:absolute;
+float:left;
+top:500px;
+left:15px;
+height:720px;
+width:700px;
+background-color:rgba(255,255,255,0.9);
+border-radius:10px;
+}
+
+section .introduction p{
+text-align:center;
+font-size:30px;
+text-shadow:1px 1px grey;
+font-variant:small-caps;
+font-weight:20px;
+}
+
+section .introduction table tr td{
+border:3px groove grey;
+border-radius:10px;
+text-align:center;
+padding:2px;
+}
+
+section .introduction table tr td:hover{
+box-shadow:20px 20px 50px 15px skyblue;
+background-color:skyblue;
+z-index:1;
+transition:0.4s;
+}
+
+section .introduction table{
+position:absolute;
+top:100px;
+left:100px;
+border-spacing:30px;
+}
+
+.top_authors{
+position:absolute;
+float:right;
+top:500px;
+right:15px;
+height:290px;
+width:200px;
+background-color:rgba(255,255,255,0.9);
+border-radius:10px;
+}
+
+aside .top_authors p{
+text-align:center;
+font-size:15px;
+text-shadow:1px 1px grey;
+font-variant:small-caps;
+font-weight:20px;
+text-decoration:underline;
+}
+
+aside .authors ul li:hover{
+box-shadow:2px 2px 5px 5px red;
+color:white;
+background-color:red;
+transition:0.4s;
+}
+
+aside .authors ul li a{
+text-decoration:none;
+color:black;
+}
+
+aside .authors ul li a:hover{
+color:white;
+transition:0.4s;
+}
+
+.top_books{
+position:absolute;
+float:right;
+top:810px;
+right:15px;
+height:320px;
+width:200px;
+background-color:rgba(255,255,255,0.9);
+border-radius:10px;
+}
+
+aside .top_books p{
+text-align:center;
+font-size:15px;
+text-shadow:1px 1px grey;
+font-variant:small-caps;
+font-weight:20px;
+text-decoration:underline;
+}
+
+aside .books ul li:hover{
+box-shadow:2px 2px 5px 5px red;
+color:white;
+background-color:red;
+transition:0.4s;
+}
+
+aside .books ul li a:hover{
+color:white;
+transition:0.4s;
+}
+
+aside .books ul li a{
+text-decoration:none;
+color:black;
+}
+
+.books ul{
+position:absolute;
+top:50px;
+left:10px;
+border:2px solid red;
+border-radius:10px;
+padding:10px;
+}
+
+.books ul li{
+border-bottom:1px solid red;
+border-radius:10px;
+padding:2px;
+}
+
+.authors ul{
+position:absolute;
+top:50px;
+left:10px;
+border:2px solid red;
+border-radius:10px;
+padding:0px;
+}
+
+.authors ul li{
+border-bottom:1px solid red;
+border-radius:10px;
+padding:2px;
+}
+
+footer{
+position:absolute;
+top:1240px;
+left:0;
+background-color:grey;
+height:100px;
+width:958px;
+border-radius:2px;
+text-align:center;
+padding:10px;
+color:white;
+}
+
+footer table{
+position:absolute;
+top:30px;
+left:380px;
+}
+
+footer table td img:hover{
+box-shadow:20px 20px 50px 15px white;
+border-radius:5px;
+}

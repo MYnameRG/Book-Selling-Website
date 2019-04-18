@@ -1,0 +1,224 @@
+body{
+background-image:url("/home/rg/Music/Book Selling Website/watermark.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+/*background-color:;
+background-repeat:;
+background-attachment:;
+background-position:;
+background-origin: padding-box|border-box|content-box|initial|inherit;*/
+/*background:c i r a p; not use "none"
+background-size:cover|auto|contain;*/
+/*color:(colorname)-(hexvalue)-(rgbvalue);*/
+/*text-align:center-left-right-justify*/
+/*text-decoration:none overline line-through underline*/
+/*text-transform:uppercase-lowercase-capitilize*/
+/*letter-spacing:-+sizepx;*/
+/*line-height:0.0px*/
+/*direction:rtl-ltr;*/
+/*word-spacing:-+sizepx;*/
+/*text-shadow: (horizontal-size)-(vertical-size)-(color)*/
+/*vertical-align: baseline|length|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit;*/
+/*unicode-bidi: normal|embed|bidi-override|initial|inherit;(used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document.)*/
+}
+nav ul li a{
+text-decoration:none;
+/*background-color:red;*/
+/*rgb(r,b,g),#fffff00,hsl(h,s,l),rgba(r,g,b,a),hsla(h,s,l,a)*/
+background-color:hsl(0,50%,90%,0.6);
+color:black;
+/*border-style:dotted|dashed|solid|double|groove|ridge|inset|outset|none|hidden;*/
+border-style:groove;
+/*border-style:top right bottom left*/
+/*border:(border-width) (border-style) (border-color;)*/
+/*border-color:top right bottom left*/
+/*border-(side):(border-width) (border-style) (border-color;)*/
+border-color:white;
+/*border-(side)-style:(value);*/
+/*border-style:top right-left bottom*/
+/*border-style:top right-left bottom*/
+/*border-style:top-bottom right-left*/
+/*border-style:top-bottom-right-left*/
+/*border-width:;*/
+/*border-radius or border-(side)-radius:;*/
+/*border-image:border-image-source(url("");) border-image-slice(value%;) border-image-width(value%;) border-image-outset(round;) border-image-repeat(none;);
+border: 10px solid transparent;*/
+border-radius:10px;
+/*margin-(side):sizepx*/
+/*margin-left:9px;*/
+/*margin:top right bottom left;*/
+/*margin:top right-left bottom;*/
+/*margin:top-bottom right-left;*/
+/*margin:top-right-left-bottom;*/
+margin:auto;
+/*padding:top right bottom left;*/
+/*padding:top right-left bottom;*/
+/*padding:top-bottom right-left;*/
+/*padding:top-right-left-bottom;*/
+padding:10px;
+width:3px;
+/*box-sizing:border-box;*/
+/*padding-(side):sizepx;*/
+/*height:;*/
+/*width:;*/
+/*max-width:;*/
+/*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;*/
+}
+nav ul li{
+list-style-type:none;
+/*border:1px solid lightgrey;*/
+display:inline-block;
+}
+nav{
+max-width:50000px;
+}
+outline{
+/*outline-style:dotted|dashed|solid|double|groove(khudayi-type)|ridge(boundry-wall)|inset|outset|none|hidden;*/
+/*outline-color:colorname-rgbcolor-hexcolor-invert;*/
+/*outline-width:thin(1px)-medium(3px)-thick(5px)-desirable;*/
+/*outline-offset:(width)-(style)-(color);*/
+/*outline:(width)-(style)-(color);*/
+}
+text-overflow{
+/*white-space:nowrap;*/
+/*overflow:hidden;*/
+/*text-overflow:clip|ellipsis|string="any"|initial|inherit*/
+}
+fonts{
+/*font-family:"more than 1 word",Serif,Arial*/
+/*generic-family--->Serif(Times New Roman,Georgia),Sans-Serif(Arial,Verdana),Monospace(Courier New,Lucida Console)*/
+/*font-style:normal-italic-oblique;*/
+/*font-size:(size)px;(16px=1em=1%)*/
+/*font-weight:normal-lighter-bold-(size)[intensity of boldness];*/
+/*font-size:(size)vw;[Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.],add <meta> tag*/
+/*font-variant:(normal)-(small-caps);*/
+}
+a{
+/*color:;*/
+/*font-family:;*/
+/*background:;*/
+}
+a:link-->,a:visited-->,a:hover-->,a:active{
+/*color:;*/
+/*font-family:;*/
+/*background-color:;*/
+/*text-decoration:;*/
+}
+list{
+/*list-style-type:lower-alpha,etc;*/
+/*list-style-position:outside-inside;*/
+/*list-style-image:url('');*/
+/*list-style:type-position-image;*/
+}
+ul,ol li{
+/*list-style-type: none;
+margin: 0;
+margin-left:;
+padding: 0;*/
+}
+table,th,td/*:hover(hover-selector),:nth-child(hover-selector)*/{
+/*border:;
+border-collapse:;
+width:;-->table apply
+height:;-->th,td apply
+text-align:;
+vertical-align:;
+padding:;
+border-(side):(width)-(style)-(color);
+background-color:;-->for hover
+overflow-x:auto;
+caption-side:top|bottom|initial|inherit;
+empty-cells: show|hide|initial|inherit;
+table-layout: auto|fixed|initial|inherit;
+border-spacing: length(sizepx)|initial|inherit;
+*/
+}
+display{
+display:none;
+visibility:hidden;
+}
+max-width{
+/*margin:auto;
+max-width:;
+width:;*/
+}
+position{
+/*position: static;
+position: relative;-->left-right-top-bottom: sizepx;
+position: absolute;-->left-right-top-bottom: sizepx;( positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).)
+position: fixed;-->left-right-top-bottom: sizepx;( positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.)
+position: sticky;-->left-right-top-bottom: sizepx;*/
+}
+overlapping(apply on image){
+/*position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1;(behind the text)*/
+}
+overflow{
+/*overflow:visible (Default. The overflow is not clipped. The content renders outside the element's box) |scroll (The overflow is clipped, and a scrollbar is added to see the rest of the content) |hidden (The overflow is clipped, and the rest of the content will be invisible) |auto (Similar to scroll, but it adds scrollbars only when necessary);*/
+/*overflow-x:;
+overflow-y:;*/
+}
+float and clear{
+/*
+float->specifies how an element should float.
+clear->specifies what elements can float beside the cleared element and on which side.
+*/
+/*
+float:left|right|none|inherit;
+clear:left|right|none|inherit|both;
+(clearfix)overflow:auto;
+*/
+}
+pseudo-classes{
+/*:hover{},div:hover p{},:link{},:visited{},:unvisited{},:first-child{},lang(div="classname"){},:focus{},:last-child{},:first-of-type{},in-range{},:required{}:not(div="classname")*/
+}
+pseudo-elements{
+/*::first-line{}(block-level elements only)[
+    font properties
+    color properties
+    background properties
+    word-spacing
+    letter-spacing
+    text-decoration
+    vertical-align
+    text-transform
+    line-height
+    clear
+],::first-letter{}[
+    font properties
+    color properties 
+    background properties
+    margin properties
+    padding properties
+    border properties
+    text-decoration
+    vertical-align (only if "float" is "none")
+    text-transform
+    line-height
+    float
+    clear
+
+],::before{content: url("images.jpg");},::after{content: url("images.jpg");},::selection{color:;background:;cursor:;outline:;}*/
+}
+counter{
+/*
+    counter-reset - Creates or resets a counter
+    counter-increment - Increments a counter value
+    content - Inserts generated content
+    counter() or counters() function - Adds the value of a counter to an element
+
+FOR EXAMPLE:-
+
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+*/
+}
